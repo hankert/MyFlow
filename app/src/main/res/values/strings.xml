@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">流量银行</string>
+    <string name="input_name">请输入姓名</string>
+    <string name="input_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="title_wallet">流量钱包</string>
+    <string name="title_jingxuan">精选</string>
+    <string name="title_mine">我的</string>
+    <string name="title_find">发现</string>
+    <string name="title_more">更多</string>
+</resources>

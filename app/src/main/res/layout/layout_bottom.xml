@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_wallet"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_circle_selector"
+            android:checked="true"
+            android:text="钱包" />
+
+        <RadioButton
+            android:id="@+id/rb_find"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_faxian_selector"
+            android:text="发现" />
+
+        <RadioButton
+            android:id="@+id/rb_jingxuan"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_home_selector"
+            android:text="精选" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_mine_selector"
+            android:text="我" />
+        <RadioButton
+            android:id="@+id/rb_more"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_mine_selector"
+            android:text="更多" />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>
